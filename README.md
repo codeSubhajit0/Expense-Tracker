@@ -7,7 +7,7 @@ There is no backend or API: everything runs client-side.
 
 ## Live Project link
 
-Open [Link]([https://expense-tracker-nine-ashen-98.vercel.app/]).
+Open [Link]([(https://expense-tracker-nine-ashen-98.vercel.app/)]).
 
 ## What's included
 
