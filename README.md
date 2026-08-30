@@ -5,14 +5,9 @@ Tailwind CSS, and Zustand. All data — transactions and categories — is
 persisted to the browser's `localStorage` via Zustand's `persist` middleware.
 There is no backend or API: everything runs client-side.
 
-## Getting started
+## Live Project link
 
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000).
+Open [Link]([https://expense-tracker-nine-ashen-98.vercel.app/]).
 
 ## What's included
 
