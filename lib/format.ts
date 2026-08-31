@@ -1,7 +1,7 @@
 export function formatCurrency(value: number): string {
   const sign = value < 0 ? "-" : "";
   const abs = Math.abs(value);
-  return `${sign}$${abs.toLocaleString("en-US", {
+  return `${sign}₹${abs.toLocaleString("en-US", {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   })}`;
@@ -34,5 +34,7 @@ export function formatDateShort(iso: string): string {
 
 export function isSameMonth(iso: string, ref: Date = new Date()): boolean {
   const d = new Date(iso + "T00:00:00");
-  return d.getMonth() === ref.getMonth() && d.getFullYear() === ref.getFullYear();
+  return (
+    d.getMonth() === ref.getMonth() && d.getFullYear() === ref.getFullYear()
+  );
 }
