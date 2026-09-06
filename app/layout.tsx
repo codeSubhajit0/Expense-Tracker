@@ -10,7 +10,8 @@ import AppShell from "@/components/AppShell";
 
 export const metadata: Metadata = {
   title: "Ledger — Expense Tracker",
-  description: "Track spending, income, and budgets — stored right on your device.",
+  description:
+    "Track spending, income, and budgets — stored right on your device.",
 };
 
 export default function RootLayout({
